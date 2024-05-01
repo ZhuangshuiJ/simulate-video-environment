@@ -93,7 +93,7 @@ public class FrankPath : MonoBehaviour
     IEnumerator Step6()
     {
         yield return new WaitForSeconds(122.0f);
-        Vector3 targetPosition = Points[6].transform.position;
+        Vector3 targetPosition = Points[5].transform.position;
         moveSpeed = 2;
         while (target.transform.position != targetPosition)
         {
@@ -117,7 +117,7 @@ public class FrankPath : MonoBehaviour
     IEnumerator Step8()
     {
         yield return new WaitForSeconds(155.0f);
-        Vector3 targetPosition = Points[5].transform.position;
+        Vector3 targetPosition = Points[6].transform.position;
         moveSpeed = 2;
         while (target.transform.position != targetPosition)
         {
