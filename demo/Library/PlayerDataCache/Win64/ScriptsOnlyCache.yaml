@@ -1046,4 +1046,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/DEMO.unity
-  playerPath: D:/demo/simulate-video-environment/executable/DEMO.exe
+  playerPath: D:/demo/simulate-video-environment/executable/DEMO/DEMO.exe
