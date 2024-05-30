@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\PLayerMovement.cs" />
     <Compile Include="Assets\Scripts\FBIPath.cs" />
     <Compile Include="Assets\Scripts\OverlappingPath.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement_IOS.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
   </ItemGroup>
   <ItemGroup>

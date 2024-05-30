@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-
+#if UNITY_EDITOR
     public bool lockTranslation = false;              // an boolean variable allow disabling avatar's movement (rotation still available)
 
     GameObject player;
@@ -99,7 +99,6 @@ public class PlayerMovement : MonoBehaviour
 
         head.transform.Rotate(Vector3.right, -mouseY);
     }
-
-   
+#endif
 }
 

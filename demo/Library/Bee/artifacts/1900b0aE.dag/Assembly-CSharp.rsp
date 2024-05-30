@@ -360,6 +360,7 @@
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/OverlappingPath.cs"
 "Assets/Scripts/PLayerMovement.cs"
+"Assets/Scripts/PlayerMovement_IOS.cs"
 -langversion:9.0
 
 /deterministic

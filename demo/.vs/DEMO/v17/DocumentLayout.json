@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\demo\\simulate-video-environment\\demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\frankpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\frankpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|d:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\fbipath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fbipath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|d:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\playermovement_ios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement_ios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\overlappingpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\overlappingpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|d:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\frankpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\frankpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loadscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|D:\\demo\\simulate-video-environment\\demo\\assets\\scripts\\fbipath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C132594A-928C-86DF-54BB-28617E4DB357}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fbipath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement_IOS.cs",
+              "DocumentMoniker": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\PlayerMovement_IOS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement_IOS.cs",
+              "ToolTip": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\PlayerMovement_IOS.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement_IOS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T00:59:33.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LoadScene.cs",
               "DocumentMoniker": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\LoadScene.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LoadScene.cs",
@@ -42,36 +59,38 @@
               "RelativeToolTip": "Assets\\Scripts\\LoadScene.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T20:43:22.077Z"
+              "WhenOpened": "2024-04-27T20:43:22.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FrankPath.cs",
               "DocumentMoniker": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\FrankPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FrankPath.cs",
               "ToolTip": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\FrankPath.cs",
               "RelativeToolTip": "Assets\\Scripts\\FrankPath.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAmwF8AAAApAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAIwF8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T01:50:57.882Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "OverlappingPath.cs",
               "DocumentMoniker": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\OverlappingPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OverlappingPath.cs",
               "ToolTip": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\OverlappingPath.cs",
               "RelativeToolTip": "Assets\\Scripts\\OverlappingPath.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T01:31:48.551Z"
+              "WhenOpened": "2024-04-27T01:31:48.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FBIPath.cs",
               "DocumentMoniker": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\FBIPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FBIPath.cs",
@@ -79,8 +98,7 @@
               "RelativeToolTip": "Assets\\Scripts\\FBIPath.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAwwEgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T01:08:57.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-27T01:08:57.994Z"
             },
             {
               "$type": "Document",
@@ -90,9 +108,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PLayerMovement.cs",
               "ToolTip": "D:\\demo\\simulate-video-environment\\demo\\Assets\\Scripts\\PLayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PLayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswGgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T00:44:25.936Z"
+              "WhenOpened": "2024-04-23T00:44:25.936Z",
+              "EditorCaption": ""
             }
           ]
         }
