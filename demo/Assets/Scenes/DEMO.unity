@@ -520,12 +520,12 @@ MonoBehaviour:
   audioClips:
   - {fileID: 8300000, guid: 6bbb6ec0f6ea6489d9e1eebb13dbfc8a, type: 3}
   - {fileID: 8300000, guid: d70ed04dc5f3e4f1e853b79c33671b46, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: e10ad49fb464f4d0db096763a31779bb, type: 3}
+  - {fileID: 8300000, guid: d5c235186fb8a4933a357c7b56a38248, type: 3}
+  - {fileID: 8300000, guid: adb923746ba6f4d0d82112b3115e37ec, type: 3}
+  - {fileID: 8300000, guid: 0e9a5750e4311436095310ff0b5eaa92, type: 3}
+  - {fileID: 8300000, guid: 57408ef7fbae64991879c037d7832cb7, type: 3}
+  - {fileID: 8300000, guid: 166c4a97522aa4374bbbd936d856fd9a, type: 3}
   movementThreshold: 0.1
 --- !u!82 &86916669
 AudioSource:
