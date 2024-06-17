@@ -336,7 +336,6 @@
 "Assets/Scripts/PLayerMovement.cs"
 "Assets/Scripts/PlayerMovement_IOS.cs"
 "Assets/Scripts/SoundManager.cs"
-"Assets/Scripts/SyncCharacterMovement.cs"
 -langversion:9.0
 
 /deterministic

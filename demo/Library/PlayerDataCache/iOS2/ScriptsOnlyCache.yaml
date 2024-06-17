@@ -313,9 +313,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 27596}
+      Script: {instanceID: 27674}
     - Class: 114
-      Script: {instanceID: 27598}
+      Script: {instanceID: 27676}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1905,12 +1905,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils.Datums
     className: FloatDatum
-  - hash:
-      serializedVersion: 2
-      Hash: cc1d0f5e26e9323fedc53f11e3d90b7f
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SyncCharacterMovement
   - hash:
       serializedVersion: 2
       Hash: 060552f194082617403d8e97c7540651

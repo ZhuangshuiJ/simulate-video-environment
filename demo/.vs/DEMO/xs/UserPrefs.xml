@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{C132594A-928C-86DF-54BB-28617E4DB357}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement_IOS.cs">
     <Files>
       <File FileName="Assets/Scripts/SoundManager.cs" Line="134" Column="34" />
+      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" Line="25" Column="29" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8a3d0057-78f9-499d-ad53-e9fbac173324" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e9cda9c9-0b5d-4cd2-935b-2da40845289b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

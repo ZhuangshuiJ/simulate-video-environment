@@ -66,7 +66,6 @@
     <Compile Include="Assets/HeadphoneMotion/Plugins/iOS/HeadphoneMotion.cs" />
     <Compile Include="Assets/Example/Scripts/HeadphoneMotionExample.cs" />
     <Compile Include="Assets/Scripts/OverlappingPath.cs" />
-    <Compile Include="Assets/Scripts/SyncCharacterMovement.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement_IOS.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
     <Compile Include="Assets/Scripts/LoadScene.cs" />
