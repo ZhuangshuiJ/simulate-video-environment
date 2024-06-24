@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - OverlappingPath
     - PlayerMovement
     - PlayerMovement_IOS
+    - RazerDetect
     - SoundManager
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -188,43 +189,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1774}
+      Script: {instanceID: 1778}
     - Class: 114
-      Script: {instanceID: 2240}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 4004}
+      Script: {instanceID: 4008}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4482}
+      Script: {instanceID: 4486}
     - Class: 114
-      Script: {instanceID: 4638}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 4756}
+      Script: {instanceID: 4760}
     - Class: 114
-      Script: {instanceID: 5488}
+      Script: {instanceID: 5492}
     - Class: 114
-      Script: {instanceID: 6586}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 6606}
+      Script: {instanceID: 6592}
     - Class: 114
-      Script: {instanceID: 7394}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 7418}
+      Script: {instanceID: 7400}
     - Class: 114
-      Script: {instanceID: 7432}
+      Script: {instanceID: 7424}
     - Class: 114
-      Script: {instanceID: 7610}
+      Script: {instanceID: 7438}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 9984}
+      Script: {instanceID: 8080}
+    - Class: 114
+      Script: {instanceID: 9990}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -275,47 +278,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1658}
+      Script: {instanceID: 1662}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3366}
     - Class: 114
-      Script: {instanceID: 3760}
+      Script: {instanceID: 3764}
     - Class: 114
-      Script: {instanceID: 4154}
+      Script: {instanceID: 4158}
     - Class: 114
-      Script: {instanceID: 4628}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 5210}
+      Script: {instanceID: 5214}
     - Class: 114
-      Script: {instanceID: 5332}
+      Script: {instanceID: 5336}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 6122}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6606}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 6970}
+      Script: {instanceID: 6976}
     - Class: 114
-      Script: {instanceID: 7394}
+      Script: {instanceID: 7400}
     - Class: 114
-      Script: {instanceID: 7610}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8074}
+      Script: {instanceID: 8080}
     - Class: 114
-      Script: {instanceID: 8780}
+      Script: {instanceID: 8786}
     - Class: 114
-      Script: {instanceID: 8928}
+      Script: {instanceID: 8934}
     - Class: 114
-      Script: {instanceID: 9542}
+      Script: {instanceID: 9548}
     - Class: 114
-      Script: {instanceID: 27674}
+      Script: {instanceID: 30214}
     - Class: 114
-      Script: {instanceID: 27676}
+      Script: {instanceID: 30216}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1107,6 +1110,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 25f960d19001bc2f5bd03bd1648b7526
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RazerDetect
   - hash:
       serializedVersion: 2
       Hash: 8787da68acbcc2f439d01ee75c474214

@@ -147,6 +147,13 @@ extern void PlayerMovement_IOS_ObjSetup_m4F9785DFAEC9378A2CA409733916943397B4CA6
 extern void PlayerMovement_IOS_HandleHeadphoneConnectionChange_mD9ACC312533A6F8566EB4FEB0D92B7C1B36802D1 (void);
 extern void PlayerMovement_IOS_OnDestroy_m9B1690480E1F0AA088528EFAE0159EB71C9B98A3 (void);
 extern void PlayerMovement_IOS__ctor_m6AE60B8ECF545BE28281B6DBFDE8FB7501F83E31 (void);
+extern void RazerDetect_Start_m6FD2EA9A74E927F72050A6828DBBFFB6165D24EB (void);
+extern void RazerDetect_Setup_m1E1CBB4C1533CF08966087D4CBC3D8C4A7B98A05 (void);
+extern void RazerDetect_PlayAudioClip_m5614834E2104079C1BB0D4569C811AF2843C669F (void);
+extern void RazerDetect_OnTriggerEnter_m36CBBB0CC8C47AFCC152457417435903F3285534 (void);
+extern void RazerDetect_OnTriggerExit_mCD4323D11BA76D8A86524064E15E978DE799EB58 (void);
+extern void RazerDetect_HandleTriggerEnter_m81179CB2D25BEDDB52FF198A08AED6EBFFF47078 (void);
+extern void RazerDetect__ctor_mFBC2AD5674CB3EA9DFFA9AB81D6BA94340AF5064 (void);
 extern void SoundManager_Start_m114BCC9E38EB73FB08543ABE6B95FFA5756D7AF7 (void);
 extern void SoundManager_setUp_m228AF4EDE0F9F87F9EA00D2CE16962112728A83D (void);
 extern void SoundManager_OnTriggerEnter_mC99DC02BAEBE13E4963BBBC235462318823C8C8B (void);
@@ -201,7 +208,7 @@ extern void HeadphoneConnectionAction__ctor_mC0459EE21286E2EB0B643D1DF3D99C6C085
 extern void HeadphoneConnectionAction_Invoke_m91AF77A677F3FF0F26F4DB76B9B9591947095C0F (void);
 extern void HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E (void);
 extern void HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C (void);
-static Il2CppMethodPointer s_methodPointers[187] = 
+static Il2CppMethodPointer s_methodPointers[194] = 
 {
 	FBIPath_Start_m774B60386D5C4084CDCDE9F326DD129C096F50A9,
 	FBIPath_Update_mB03A4A4AEAD1602516D9CE976DA83AE61A2FE976,
@@ -336,6 +343,13 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	PlayerMovement_IOS_HandleHeadphoneConnectionChange_mD9ACC312533A6F8566EB4FEB0D92B7C1B36802D1,
 	PlayerMovement_IOS_OnDestroy_m9B1690480E1F0AA088528EFAE0159EB71C9B98A3,
 	PlayerMovement_IOS__ctor_m6AE60B8ECF545BE28281B6DBFDE8FB7501F83E31,
+	RazerDetect_Start_m6FD2EA9A74E927F72050A6828DBBFFB6165D24EB,
+	RazerDetect_Setup_m1E1CBB4C1533CF08966087D4CBC3D8C4A7B98A05,
+	RazerDetect_PlayAudioClip_m5614834E2104079C1BB0D4569C811AF2843C669F,
+	RazerDetect_OnTriggerEnter_m36CBBB0CC8C47AFCC152457417435903F3285534,
+	RazerDetect_OnTriggerExit_mCD4323D11BA76D8A86524064E15E978DE799EB58,
+	RazerDetect_HandleTriggerEnter_m81179CB2D25BEDDB52FF198A08AED6EBFFF47078,
+	RazerDetect__ctor_mFBC2AD5674CB3EA9DFFA9AB81D6BA94340AF5064,
 	SoundManager_Start_m114BCC9E38EB73FB08543ABE6B95FFA5756D7AF7,
 	SoundManager_setUp_m228AF4EDE0F9F87F9EA00D2CE16962112728A83D,
 	SoundManager_OnTriggerEnter_mC99DC02BAEBE13E4963BBBC235462318823C8C8B,
@@ -391,7 +405,7 @@ static Il2CppMethodPointer s_methodPointers[187] =
 	HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E,
 	HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C,
 };
-static const int32_t s_InvokerIndices[187] = 
+static const int32_t s_InvokerIndices[194] = 
 {
 	6945,
 	6945,
@@ -525,6 +539,13 @@ static const int32_t s_InvokerIndices[187] =
 	6945,
 	5327,
 	6945,
+	6945,
+	6945,
+	6945,
+	5405,
+	5448,
+	5448,
+	5448,
 	6945,
 	6945,
 	6945,
@@ -583,14 +604,14 @@ static const int32_t s_InvokerIndices[187] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
-	{ 0x060000B1, 7,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
-	{ 0x060000B2, 8,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
+	{ 0x060000B8, 7,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
+	{ 0x060000B9, 8,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	187,
+	194,
 	s_methodPointers,
 	0,
 	NULL,

@@ -69,10 +69,10 @@ using Unity.XR.CoreUtils;
             
         }
 
-        if(xrOrigin != null)
-        {
-            Camera.transform.rotation = head.transform.rotation;
-        }
+        //if (xrOrigin != null)
+        //{
+        //    Camera.transform.rotation = head.transform.rotation;
+        //}
     }
 
    

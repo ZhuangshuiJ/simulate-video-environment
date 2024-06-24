@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{C132594A-928C-86DF-54BB-28617E4DB357}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement_IOS.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RayDetectPlay.cs">
     <Files>
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="134" Column="34" />
-      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" Line="25" Column="29" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="110" Column="34" />
+      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" Line="75" Column="12" />
+      <File FileName="Assets/Scripts/RazerDetect.cs" Line="26" Column="30" />
+      <File FileName="Assets/Scripts/RayDetectPlay.cs" Line="99" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DEMO" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
+            <Node name="Assets" expanded="True">
               <Node name="HeadphoneMotion" expanded="True" />
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="RayDetectPlay.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -19,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e9cda9c9-0b5d-4cd2-935b-2da40845289b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c912dbea-7052-4c86-a871-9985d74081ee" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

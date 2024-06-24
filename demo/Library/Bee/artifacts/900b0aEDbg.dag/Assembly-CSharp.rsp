@@ -399,6 +399,8 @@
 "Assets/Scripts/OverlappingPath.cs"
 "Assets/Scripts/PLayerMovement.cs"
 "Assets/Scripts/PlayerMovement_IOS.cs"
+"Assets/Scripts/RayDetectPlay.cs"
+"Assets/Scripts/RazerDetect.cs"
 "Assets/Scripts/SoundManager.cs"
 -langversion:9.0
 
