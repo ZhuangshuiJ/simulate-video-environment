@@ -23,6 +23,11 @@ public class LoadSecondScene : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void LoadTheThirdScene()
+    {
+        SceneManager.LoadScene(2);
+    }
+
     IEnumerator MainMenuCount()
     {
         yield return new WaitForSeconds(232.0f);

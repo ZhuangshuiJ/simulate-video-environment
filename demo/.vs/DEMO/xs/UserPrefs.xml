@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{C132594A-928C-86DF-54BB-28617E4DB357}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RayDetectPlay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="110" Column="34" />
-      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" Line="75" Column="12" />
-      <File FileName="Assets/Scripts/RazerDetect.cs" Line="26" Column="30" />
-      <File FileName="Assets/Scripts/RayDetectPlay.cs" Line="99" Column="39" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="47" Column="11" />
+      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" />
+      <File FileName="Assets/Scripts/RazerDetect.cs" />
+      <File FileName="Assets/Scripts/RayDetectPlay.cs" />
+      <File FileName="Assets/Scripts/LoadScene.cs" />
+      <File FileName="Assets/Scripts/Museum/Artifact.cs" />
+      <File FileName="Assets/Scripts/Museum/HeadRaycaster.cs" Line="37" Column="50" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +16,8 @@
             <Node name="Assets" expanded="True">
               <Node name="HeadphoneMotion" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="RayDetectPlay.cs" selected="True" />
+                <Node name="Museum" expanded="True" />
+                <Node name="SoundManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c912dbea-7052-4c86-a871-9985d74081ee" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2a258b2c-7880-422d-b200-a8c77b879058" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

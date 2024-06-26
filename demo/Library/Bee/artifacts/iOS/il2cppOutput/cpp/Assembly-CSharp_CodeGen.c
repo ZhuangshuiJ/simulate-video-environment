@@ -121,14 +121,21 @@ extern void U3CStep8U3Ed__12_System_Collections_IEnumerator_get_Current_mE07963E
 extern void LoadSecondScene_Start_mD2A30C63E8D727F68B5B18B492A0250A5819AC9F (void);
 extern void LoadSecondScene_LoadTheFirstScene_m4F352FA28DA580FF17C1FCD4E9A99B75B2572F29 (void);
 extern void LoadSecondScene_LoadTheSecondScene_mF3FCBFC69C883DE0AE0BB67A5AA5D3542D5364FD (void);
+extern void LoadSecondScene_LoadTheThirdScene_mEC7814E1BB5A26EE8B42D33C74194A3EC955BD4E (void);
 extern void LoadSecondScene_MainMenuCount_m1E48A580F3C471801DBA8ABCB0D66E9D10F62E8A (void);
 extern void LoadSecondScene__ctor_m8EA0E77E13CC2B293B672379894CAAB297532584 (void);
-extern void U3CMainMenuCountU3Ed__3__ctor_m915F750648136CE3FF8685D53EA1BD17E3EF3467 (void);
-extern void U3CMainMenuCountU3Ed__3_System_IDisposable_Dispose_m2C10CCF038C33EC21BBC0B9FDB8CB08B0CF2AC6A (void);
-extern void U3CMainMenuCountU3Ed__3_MoveNext_m72137EB27F4D6151C2595E136E310FD6117EB1EE (void);
-extern void U3CMainMenuCountU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4D91CD03A695B89FB7531FD227DB990C8C62C8A3 (void);
-extern void U3CMainMenuCountU3Ed__3_System_Collections_IEnumerator_Reset_m9F04F78AB801BE18BCBBAB99C239775B58F70A48 (void);
-extern void U3CMainMenuCountU3Ed__3_System_Collections_IEnumerator_get_Current_mC9E9F5F33B8EE42103EFC4F3F667843DFD76FEBD (void);
+extern void U3CMainMenuCountU3Ed__4__ctor_mE562E669E6918C23F6AB38117BB9AAD4B251B83D (void);
+extern void U3CMainMenuCountU3Ed__4_System_IDisposable_Dispose_mD8397CB25B3D60DA5CA1AC67FB56D9239A516B3F (void);
+extern void U3CMainMenuCountU3Ed__4_MoveNext_m6E94186B2C80353C53A1104AAF5DE2163D88B6E9 (void);
+extern void U3CMainMenuCountU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB8D24023DC86010743E757FFD406054F92BDE251 (void);
+extern void U3CMainMenuCountU3Ed__4_System_Collections_IEnumerator_Reset_mBF9512AEBD7BC2F5C2350E9928B822089EA86B83 (void);
+extern void U3CMainMenuCountU3Ed__4_System_Collections_IEnumerator_get_Current_m4389789685B949D2F3DC228DDC42572BC251C78D (void);
+extern void Artifact_Start_m79C5E9BDB599DDF5B8471F37F1421E875605D5A0 (void);
+extern void Artifact_PlayAudio_m67DE84B2CFAB6A2418AE6C0426F0C1E2E7905617 (void);
+extern void Artifact_StopAudio_mB29BDF1EBCB7584D54F00B031450FF96A9A2A9B3 (void);
+extern void Artifact__ctor_mD16C3FF4A18834F2BA5679ECDEF9C222E02047E2 (void);
+extern void HeadRaycaster_Update_m8624111CD6BFBDA725E4B92944C81C9732E30234 (void);
+extern void HeadRaycaster__ctor_mC69038D600D8D7AE825BA45B3BEFAEB59433B460 (void);
 extern void OverlappingPath_Start_m55A50952620F48C8E43271302EF972F9A62B8427 (void);
 extern void OverlappingPath_Update_m3242853087F636A9BEF59172AC46D74602C6B3F7 (void);
 extern void OverlappingPath_Step1_m4F52F1990D8FEC9A75C7E16DFAED140B14C921D6 (void);
@@ -147,6 +154,12 @@ extern void PlayerMovement_IOS_ObjSetup_m4F9785DFAEC9378A2CA409733916943397B4CA6
 extern void PlayerMovement_IOS_HandleHeadphoneConnectionChange_mD9ACC312533A6F8566EB4FEB0D92B7C1B36802D1 (void);
 extern void PlayerMovement_IOS_OnDestroy_m9B1690480E1F0AA088528EFAE0159EB71C9B98A3 (void);
 extern void PlayerMovement_IOS__ctor_m6AE60B8ECF545BE28281B6DBFDE8FB7501F83E31 (void);
+extern void RayDetectPlay_Start_mCF099CC594CD557839448945F7F9573F87DFBEB6 (void);
+extern void RayDetectPlay_Update_mED66FF3DE212CC75C64843566DE94FA92C4EDDBD (void);
+extern void RayDetectPlay_Setup_m9219DB61B13676C35DF2207F840355215A5A9C4F (void);
+extern void RayDetectPlay_PlayAudioClip_m31B53509F062B4900A3622C792AD1A1A6BDF063D (void);
+extern void RayDetectPlay_DetectAndPlaySound_mDE90E24795E9E76F03412FD1D1C20631FEA5C825 (void);
+extern void RayDetectPlay__ctor_m20DBA335946098147514434B4DB174A9B92CC314 (void);
 extern void RazerDetect_Start_m6FD2EA9A74E927F72050A6828DBBFFB6165D24EB (void);
 extern void RazerDetect_Setup_m1E1CBB4C1533CF08966087D4CBC3D8C4A7B98A05 (void);
 extern void RazerDetect_PlayAudioClip_m5614834E2104079C1BB0D4569C811AF2843C669F (void);
@@ -208,7 +221,7 @@ extern void HeadphoneConnectionAction__ctor_mC0459EE21286E2EB0B643D1DF3D99C6C085
 extern void HeadphoneConnectionAction_Invoke_m91AF77A677F3FF0F26F4DB76B9B9591947095C0F (void);
 extern void HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E (void);
 extern void HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C (void);
-static Il2CppMethodPointer s_methodPointers[194] = 
+static Il2CppMethodPointer s_methodPointers[207] = 
 {
 	FBIPath_Start_m774B60386D5C4084CDCDE9F326DD129C096F50A9,
 	FBIPath_Update_mB03A4A4AEAD1602516D9CE976DA83AE61A2FE976,
@@ -317,14 +330,21 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	LoadSecondScene_Start_mD2A30C63E8D727F68B5B18B492A0250A5819AC9F,
 	LoadSecondScene_LoadTheFirstScene_m4F352FA28DA580FF17C1FCD4E9A99B75B2572F29,
 	LoadSecondScene_LoadTheSecondScene_mF3FCBFC69C883DE0AE0BB67A5AA5D3542D5364FD,
+	LoadSecondScene_LoadTheThirdScene_mEC7814E1BB5A26EE8B42D33C74194A3EC955BD4E,
 	LoadSecondScene_MainMenuCount_m1E48A580F3C471801DBA8ABCB0D66E9D10F62E8A,
 	LoadSecondScene__ctor_m8EA0E77E13CC2B293B672379894CAAB297532584,
-	U3CMainMenuCountU3Ed__3__ctor_m915F750648136CE3FF8685D53EA1BD17E3EF3467,
-	U3CMainMenuCountU3Ed__3_System_IDisposable_Dispose_m2C10CCF038C33EC21BBC0B9FDB8CB08B0CF2AC6A,
-	U3CMainMenuCountU3Ed__3_MoveNext_m72137EB27F4D6151C2595E136E310FD6117EB1EE,
-	U3CMainMenuCountU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4D91CD03A695B89FB7531FD227DB990C8C62C8A3,
-	U3CMainMenuCountU3Ed__3_System_Collections_IEnumerator_Reset_m9F04F78AB801BE18BCBBAB99C239775B58F70A48,
-	U3CMainMenuCountU3Ed__3_System_Collections_IEnumerator_get_Current_mC9E9F5F33B8EE42103EFC4F3F667843DFD76FEBD,
+	U3CMainMenuCountU3Ed__4__ctor_mE562E669E6918C23F6AB38117BB9AAD4B251B83D,
+	U3CMainMenuCountU3Ed__4_System_IDisposable_Dispose_mD8397CB25B3D60DA5CA1AC67FB56D9239A516B3F,
+	U3CMainMenuCountU3Ed__4_MoveNext_m6E94186B2C80353C53A1104AAF5DE2163D88B6E9,
+	U3CMainMenuCountU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB8D24023DC86010743E757FFD406054F92BDE251,
+	U3CMainMenuCountU3Ed__4_System_Collections_IEnumerator_Reset_mBF9512AEBD7BC2F5C2350E9928B822089EA86B83,
+	U3CMainMenuCountU3Ed__4_System_Collections_IEnumerator_get_Current_m4389789685B949D2F3DC228DDC42572BC251C78D,
+	Artifact_Start_m79C5E9BDB599DDF5B8471F37F1421E875605D5A0,
+	Artifact_PlayAudio_m67DE84B2CFAB6A2418AE6C0426F0C1E2E7905617,
+	Artifact_StopAudio_mB29BDF1EBCB7584D54F00B031450FF96A9A2A9B3,
+	Artifact__ctor_mD16C3FF4A18834F2BA5679ECDEF9C222E02047E2,
+	HeadRaycaster_Update_m8624111CD6BFBDA725E4B92944C81C9732E30234,
+	HeadRaycaster__ctor_mC69038D600D8D7AE825BA45B3BEFAEB59433B460,
 	OverlappingPath_Start_m55A50952620F48C8E43271302EF972F9A62B8427,
 	OverlappingPath_Update_m3242853087F636A9BEF59172AC46D74602C6B3F7,
 	OverlappingPath_Step1_m4F52F1990D8FEC9A75C7E16DFAED140B14C921D6,
@@ -343,6 +363,12 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	PlayerMovement_IOS_HandleHeadphoneConnectionChange_mD9ACC312533A6F8566EB4FEB0D92B7C1B36802D1,
 	PlayerMovement_IOS_OnDestroy_m9B1690480E1F0AA088528EFAE0159EB71C9B98A3,
 	PlayerMovement_IOS__ctor_m6AE60B8ECF545BE28281B6DBFDE8FB7501F83E31,
+	RayDetectPlay_Start_mCF099CC594CD557839448945F7F9573F87DFBEB6,
+	RayDetectPlay_Update_mED66FF3DE212CC75C64843566DE94FA92C4EDDBD,
+	RayDetectPlay_Setup_m9219DB61B13676C35DF2207F840355215A5A9C4F,
+	RayDetectPlay_PlayAudioClip_m31B53509F062B4900A3622C792AD1A1A6BDF063D,
+	RayDetectPlay_DetectAndPlaySound_mDE90E24795E9E76F03412FD1D1C20631FEA5C825,
+	RayDetectPlay__ctor_m20DBA335946098147514434B4DB174A9B92CC314,
 	RazerDetect_Start_m6FD2EA9A74E927F72050A6828DBBFFB6165D24EB,
 	RazerDetect_Setup_m1E1CBB4C1533CF08966087D4CBC3D8C4A7B98A05,
 	RazerDetect_PlayAudioClip_m5614834E2104079C1BB0D4569C811AF2843C669F,
@@ -405,7 +431,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E,
 	HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C,
 };
-static const int32_t s_InvokerIndices[194] = 
+static const int32_t s_InvokerIndices[207] = 
 {
 	6945,
 	6945,
@@ -514,6 +540,7 @@ static const int32_t s_InvokerIndices[194] =
 	6945,
 	6945,
 	6945,
+	6945,
 	6830,
 	6945,
 	5405,
@@ -522,6 +549,12 @@ static const int32_t s_InvokerIndices[194] =
 	6830,
 	6945,
 	6830,
+	6945,
+	5448,
+	6945,
+	6945,
+	6945,
+	6945,
 	6945,
 	6945,
 	6830,
@@ -538,6 +571,12 @@ static const int32_t s_InvokerIndices[194] =
 	5462,
 	6945,
 	5327,
+	6945,
+	6945,
+	6945,
+	6945,
+	6945,
+	5405,
 	6945,
 	6945,
 	6945,
@@ -565,7 +604,7 @@ static const int32_t s_InvokerIndices[194] =
 	6830,
 	6945,
 	6830,
-	10390,
+	10393,
 	6945,
 	6945,
 	5327,
@@ -576,22 +615,22 @@ static const int32_t s_InvokerIndices[194] =
 	6945,
 	6945,
 	6945,
-	10156,
-	10156,
-	10370,
-	10370,
-	10370,
-	10289,
-	10289,
-	10370,
-	10289,
-	10289,
-	10289,
-	10289,
-	10156,
-	10156,
-	10144,
-	7985,
+	10159,
+	10159,
+	10373,
+	10373,
+	10373,
+	10292,
+	10292,
+	10373,
+	10292,
+	10292,
+	10292,
+	10292,
+	10159,
+	10159,
+	10147,
+	7987,
 	6945,
 	2826,
 	898,
@@ -604,14 +643,14 @@ static const int32_t s_InvokerIndices[194] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
-	{ 0x060000B8, 7,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
-	{ 0x060000B9, 8,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
+	{ 0x060000C5, 7,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
+	{ 0x060000C6, 8,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	194,
+	207,
 	s_methodPointers,
 	0,
 	NULL,

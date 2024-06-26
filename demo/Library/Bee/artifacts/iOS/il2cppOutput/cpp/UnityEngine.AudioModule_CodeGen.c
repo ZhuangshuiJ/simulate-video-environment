@@ -40,6 +40,7 @@ extern void AudioSource_get_clip_m4F5027066F9FC44B44192713142B0C277BB418FE (void
 extern void AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70 (void);
 extern void AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3 (void);
 extern void AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537 (void);
+extern void AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC (void);
 extern void AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56 (void);
 extern void AudioSampleProvider_InvokeSampleFramesAvailable_mEB16F7230AB65A3576BF053AC5719F8E134FBCD4 (void);
 extern void AudioSampleProvider_InvokeSampleFramesOverflow_m66593173A527981F5EB2A5EF77B0C9119DAB5E15 (void);
@@ -49,7 +50,7 @@ extern void AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C4
 extern void AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83 (void);
 extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD (void);
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57 (void);
-static Il2CppMethodPointer s_methodPointers[37] = 
+static Il2CppMethodPointer s_methodPointers[38] = 
 {
 	AudioSettings_InvokeOnAudioConfigurationChanged_m8273D3AEB24F4C3E374238B6F699BE6696808E85,
 	AudioSettings_InvokeOnAudioSystemShuttingDown_m1B9895D60B3267EBDEC69B9169730DBAD8325E90,
@@ -79,6 +80,7 @@ static Il2CppMethodPointer s_methodPointers[37] =
 	AudioSource_set_clip_mFF441895E274286C88D9C75ED5CA1B1B39528D70,
 	AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3,
 	AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537,
+	AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC,
 	AudioSource_set_loop_m834A590939D8456008C0F897FD80B0ECFFB7FE56,
 	AudioSampleProvider_InvokeSampleFramesAvailable_mEB16F7230AB65A3576BF053AC5719F8E134FBCD4,
 	AudioSampleProvider_InvokeSampleFramesOverflow_m66593173A527981F5EB2A5EF77B0C9119DAB5E15,
@@ -95,27 +97,27 @@ extern void AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41
 extern void AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000022, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
-	{ 0x06000023, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
-	{ 0x06000024, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
-	{ 0x06000025, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
+	{ 0x06000023, AudioClipPlayable_GetHandle_mEA1D664328FF9B08E4F7D5EBCD4B51A754D97C44_AdjustorThunk },
+	{ 0x06000024, AudioClipPlayable_Equals_m9C1C75ACBB74FE06AD02BE4643F6EB39413EFF83_AdjustorThunk },
+	{ 0x06000025, AudioMixerPlayable_GetHandle_m6C182D9794E901D123223BB57738A302BEAB41FD_AdjustorThunk },
+	{ 0x06000026, AudioMixerPlayable_Equals_mDFB945EB48199A338BAD00D40FB8EEC34CF64D57_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[37] = 
+static const int32_t s_InvokerIndices[38] = 
 {
-	10144,
-	10370,
-	10370,
-	10289,
-	10289,
+	10147,
+	10373,
+	10373,
+	10292,
+	10292,
 	2826,
 	5327,
-	10289,
-	10144,
-	10289,
-	10144,
-	10289,
-	10370,
-	10370,
+	10292,
+	10147,
+	10292,
+	10147,
+	10292,
+	10373,
+	10373,
 	6945,
 	6877,
 	5448,
@@ -124,12 +126,13 @@ static const int32_t s_InvokerIndices[37] =
 	5448,
 	2826,
 	5405,
-	9400,
+	9403,
 	5327,
 	6830,
 	5448,
 	6945,
 	6945,
+	6709,
 	5327,
 	5405,
 	5405,
@@ -144,7 +147,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModul
 const Il2CppCodeGenModule g_UnityEngine_AudioModule_CodeGenModule = 
 {
 	"UnityEngine.AudioModule.dll",
-	37,
+	38,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

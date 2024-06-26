@@ -396,6 +396,8 @@
 "Assets/Scripts/FBIPath.cs"
 "Assets/Scripts/FrankPath.cs"
 "Assets/Scripts/LoadScene.cs"
+"Assets/Scripts/Museum/Artifact.cs"
+"Assets/Scripts/Museum/HeadRaycaster.cs"
 "Assets/Scripts/OverlappingPath.cs"
 "Assets/Scripts/PLayerMovement.cs"
 "Assets/Scripts/PlayerMovement_IOS.cs"

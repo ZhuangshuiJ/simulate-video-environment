@@ -1,12 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Artifact
     - FBIPath
     - FrankPath
+    - HeadRaycaster
     - LoadSecondScene
     - OverlappingPath
     - PlayerMovement
     - PlayerMovement_IOS
+    - RayDetectPlay
     - RazerDetect
     - SoundManager
     Unity.InputSystem.dll:
@@ -151,6 +154,9 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: LoadSecondScene
+    methodName: LoadTheThirdScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadSecondScene
     methodName: LoadTheSecondScene
   sceneClasses:
     Assets/Scenes/DEMO.unity:
@@ -189,33 +195,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1778}
+      Script: {instanceID: 1774}
     - Class: 114
-      Script: {instanceID: 2244}
+      Script: {instanceID: 2240}
     - Class: 114
-      Script: {instanceID: 2802}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3366}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 4008}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 4158}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4486}
+      Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 4642}
+      Script: {instanceID: 4640}
     - Class: 114
-      Script: {instanceID: 4760}
+      Script: {instanceID: 4758}
     - Class: 114
-      Script: {instanceID: 5492}
+      Script: {instanceID: 5490}
     - Class: 114
-      Script: {instanceID: 5652}
+      Script: {instanceID: 6590}
     - Class: 114
-      Script: {instanceID: 6592}
-    - Class: 114
-      Script: {instanceID: 6612}
+      Script: {instanceID: 6610}
     - Class: 114
       Script: {instanceID: 7400}
     - Class: 114
@@ -227,7 +231,96 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8080}
     - Class: 114
-      Script: {instanceID: 9990}
+      Script: {instanceID: 8502}
+    - Class: 114
+      Script: {instanceID: 9992}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MUSEUM.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1774}
+    - Class: 114
+      Script: {instanceID: 2240}
+    - Class: 114
+      Script: {instanceID: 2798}
+    - Class: 114
+      Script: {instanceID: 3086}
+    - Class: 114
+      Script: {instanceID: 3362}
+    - Class: 114
+      Script: {instanceID: 3560}
+    - Class: 114
+      Script: {instanceID: 4006}
+    - Class: 114
+      Script: {instanceID: 4640}
+    - Class: 114
+      Script: {instanceID: 4758}
+    - Class: 114
+      Script: {instanceID: 6610}
+    - Class: 114
+      Script: {instanceID: 7200}
+    - Class: 114
+      Script: {instanceID: 7400}
+    - Class: 114
+      Script: {instanceID: 7424}
+    - Class: 114
+      Script: {instanceID: 7438}
+    - Class: 114
+      Script: {instanceID: 7616}
+    - Class: 114
+      Script: {instanceID: 8080}
+    - Class: 114
+      Script: {instanceID: 9992}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -278,31 +371,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1662}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 2482}
+      Script: {instanceID: 2478}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3366}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 3764}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 4158}
+      Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 4630}
     - Class: 114
-      Script: {instanceID: 5214}
+      Script: {instanceID: 5212}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5334}
     - Class: 114
-      Script: {instanceID: 5586}
+      Script: {instanceID: 5584}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 6612}
+      Script: {instanceID: 6610}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 6974}
     - Class: 114
       Script: {instanceID: 7400}
     - Class: 114
@@ -310,15 +403,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8080}
     - Class: 114
-      Script: {instanceID: 8786}
+      Script: {instanceID: 8788}
     - Class: 114
-      Script: {instanceID: 8934}
+      Script: {instanceID: 8936}
     - Class: 114
-      Script: {instanceID: 9548}
+      Script: {instanceID: 9550}
     - Class: 114
-      Script: {instanceID: 30214}
+      Script: {instanceID: 31382}
     - Class: 114
-      Script: {instanceID: 30216}
+      Script: {instanceID: 31384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -648,6 +741,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 542cf72cf44301dccaa91997d2c8dfa1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Artifact
   - hash:
       serializedVersion: 2
       Hash: b98001682cba83786775c9e415b89a61
@@ -1382,6 +1481,12 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
+      Hash: 5ce64cc738179f8561715e77dfb7424e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HeadRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: 6cf63e9dc888f92a3672d2e4db631c8e
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -1560,6 +1665,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRLoaderNoPreInit
+  - hash:
+      serializedVersion: 2
+      Hash: 309dad68f45dfaa543c46c77e6018be7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RayDetectPlay
   - hash:
       serializedVersion: 2
       Hash: e63fe08659e7e4647a51098c666f8845
@@ -1984,4 +2095,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/DEMO.unity
+  - Assets/Scenes/MUSEUM.unity
   playerPath: /Users/zhuangshuijiang/Documents/test

@@ -71,6 +71,8 @@
     <Compile Include="Assets/Scripts/PlayerMovement_IOS.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
     <Compile Include="Assets/Scripts/LoadScene.cs" />
+    <Compile Include="Assets/Scripts/Museum/Artifact.cs" />
+    <Compile Include="Assets/Scripts/Museum/HeadRaycaster.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

@@ -55,12 +55,12 @@ public class RayDetectPlay : MonoBehaviour
         {
             if (index < audioClips.Length)
             {
-                // 先停止当前播放的音频，防止音频重叠
+                //Stop the current audio clip prevent from overlap
                 audioSource.Stop();
                 audioSource.clip = audioClips[index];
                 audioSource.Play();
                 Debug.Log($"Playing audio clip: {audioClips[index].name}");
-                // 更新最后播放的音频剪辑索引
+                //update last played audioclip's index 
                 lastPlayedClipIndex = index;
             }
             else
@@ -96,7 +96,7 @@ public class RayDetectPlay : MonoBehaviour
             if (tagToClipIndices.ContainsKey(closestHit.collider.tag))
             {
                 int clipIndex = tagToClipIndices[closestHit.collider.tag];
-                // 只有在音频剪辑索引不同时才播放新的音频
+                // Only play new audioclip when the ray detected obj's index different than last played obj's audioclip(prevent from overlap)
                 if (clipIndex != lastPlayedClipIndex)
                 {
                     PlayAudioClip(clipIndex);
@@ -105,7 +105,7 @@ public class RayDetectPlay : MonoBehaviour
             }
             else
             {
-                // 如果没有检测到任何物体，停止播放当前音频
+                //if didn't detect any corresponding obj in the dictionery tagToClipIndices,stop current playing and reset the last play audioclip index
                 audioSource.Stop();
                 lastPlayedClipIndex = -1;
             }

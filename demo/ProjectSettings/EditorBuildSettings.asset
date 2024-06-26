@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DEMO.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MUSEUM.unity
+    guid: eb151e6b5c53044fd95afce692cd71bf
   - enabled: 0
     path: Assets/Example/Scenes/HeadphoneMotionExample.unity
     guid: 47f2d13c6e6654d47a2a038695496755

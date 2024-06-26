@@ -42,7 +42,8 @@ public class SoundManager : MonoBehaviour
             { "WoodFloor", new int[] { 0, 1 } },
             { "WoodWall", new int[] { 2, 3 } },
             { "Fabric", new int[] { 4, 5 } },
-            { "Wood", new int[] { 6, 7 } }
+            { "Wood", new int[] { 6, 7 } },
+            { "Brick", new int[] { 8, 9} }
         };
     }
 

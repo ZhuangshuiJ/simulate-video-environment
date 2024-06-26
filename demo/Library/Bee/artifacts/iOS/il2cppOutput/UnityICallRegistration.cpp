@@ -290,6 +290,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.AudioSource
 
+		//System.Boolean UnityEngine.AudioSource::get_isPlaying()
+		void Register_UnityEngine_AudioSource_get_isPlaying();
+		Register_UnityEngine_AudioSource_get_isPlaying();
+
 		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
 		void Register_UnityEngine_AudioSource_PlayHelper();
 		Register_UnityEngine_AudioSource_PlayHelper();
@@ -837,6 +841,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Debug::ExtractStackTraceNoAlloc(System.Byte*,System.Int32,System.String)
 		void Register_UnityEngine_Debug_ExtractStackTraceNoAlloc();
 		Register_UnityEngine_Debug_ExtractStackTraceNoAlloc();
+
+		//System.Void UnityEngine.Debug::DrawLine_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Color&,System.Single,System.Boolean)
+		void Register_UnityEngine_Debug_DrawLine_Injected();
+		Register_UnityEngine_Debug_DrawLine_Injected();
 
 	//End Registrations for type : UnityEngine.Debug
 
