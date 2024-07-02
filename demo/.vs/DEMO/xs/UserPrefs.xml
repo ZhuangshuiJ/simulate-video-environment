@@ -1,23 +1,25 @@
 ﻿<Properties StartupConfiguration="{C132594A-928C-86DF-54BB-28617E4DB357}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SwitchDetectMode.cs">
     <Files>
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="47" Column="11" />
-      <File FileName="Assets/Scripts/PlayerMovement_IOS.cs" />
-      <File FileName="Assets/Scripts/RazerDetect.cs" />
-      <File FileName="Assets/Scripts/RayDetectPlay.cs" />
-      <File FileName="Assets/Scripts/LoadScene.cs" />
+      <File FileName="Assets/Scripts/PlayerMovement_IOS_shake.cs" Line="105" Column="1" />
+      <File FileName="Assets/Scripts/PlayerMovement_IOS_touch.cs" />
+      <File FileName="Assets/Scripts/SwitchDetectMode.cs" Line="11" Column="5" />
+      <File FileName="Assets/Scripts/DetectAndPlay.cs" />
+      <File FileName="Assets/Scripts/SecSoundManager.cs" />
+      <File FileName="Assets/Scripts/SoundManager.cs" Line="14" Column="15" />
+      <File FileName="Assets/Scripts/Museum/HeadRaycaster.cs" />
       <File FileName="Assets/Scripts/Museum/Artifact.cs" />
-      <File FileName="Assets/Scripts/Museum/HeadRaycaster.cs" Line="37" Column="50" />
+      <File FileName="Assets/Scripts/PLayerMovement.cs" />
+      <File FileName="Assets/Scripts/GyroControl.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DEMO" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="HeadphoneMotion" expanded="True" />
               <Node name="Scripts" expanded="True">
                 <Node name="Museum" expanded="True" />
-                <Node name="SoundManager.cs" selected="True" />
+                <Node name="SwitchDetectMode.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -27,7 +29,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2a258b2c-7880-422d-b200-a8c77b879058" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8c781f11-7934-40a4-9f1e-d218ccd4f7f4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

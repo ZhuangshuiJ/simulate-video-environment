@@ -24,9 +24,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3386923150713164644}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.794162, y: -3.101, z: 9.075}
-  m_LocalScale: {x: 0.7501875, y: 0.7501875, z: 0.7501875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 508552017018600513}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4216744530734266895}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 242939affe62942f68d4a79556f66a15, type: 3}
   m_Name: 
@@ -162,6 +162,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 0e9a5750e4311436095310ff0b5eaa92, type: 3}
   - {fileID: 8300000, guid: 57408ef7fbae64991879c037d7832cb7, type: 3}
   - {fileID: 8300000, guid: 166c4a97522aa4374bbbd936d856fd9a, type: 3}
+  - {fileID: 8300000, guid: fad70700818d14e9893bc77c8cb65cc7, type: 3}
+  - {fileID: 8300000, guid: 7570c2226afb647d6b4bb5b5b60390f2, type: 3}
   movementThreshold: 0.1
 --- !u!82 &4739281941002385730
 AudioSource:

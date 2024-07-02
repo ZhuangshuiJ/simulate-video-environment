@@ -4,14 +4,15 @@ ScriptsOnlyBuild:
     - Artifact
     - FBIPath
     - FrankPath
+    - GyroControl
     - HeadRaycaster
     - LoadSecondScene
     - OverlappingPath
     - PlayerMovement
-    - PlayerMovement_IOS
-    - RayDetectPlay
-    - RazerDetect
+    - PlayerMovement_IOS_touch
+    - SecSoundManager
     - SoundManager
+    - SwitchDetectMode
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -158,6 +159,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: LoadSecondScene
     methodName: LoadTheSecondScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchDetectMode
+    methodName: SwitchButtonOnclick
   sceneClasses:
     Assets/Scenes/DEMO.unity:
     - Class: 1
@@ -211,29 +215,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4484}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4758}
+      Script: {instanceID: 4642}
     - Class: 114
-      Script: {instanceID: 5490}
+      Script: {instanceID: 4760}
     - Class: 114
-      Script: {instanceID: 6590}
+      Script: {instanceID: 5492}
     - Class: 114
-      Script: {instanceID: 6610}
+      Script: {instanceID: 6592}
     - Class: 114
-      Script: {instanceID: 7400}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 7424}
+      Script: {instanceID: 7048}
     - Class: 114
-      Script: {instanceID: 7438}
+      Script: {instanceID: 7204}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7404}
     - Class: 114
-      Script: {instanceID: 8080}
+      Script: {instanceID: 7428}
     - Class: 114
-      Script: {instanceID: 8502}
+      Script: {instanceID: 7442}
     - Class: 114
-      Script: {instanceID: 9992}
+      Script: {instanceID: 7620}
+    - Class: 114
+      Script: {instanceID: 7652}
+    - Class: 114
+      Script: {instanceID: 8086}
+    - Class: 114
+      Script: {instanceID: 9998}
+    - Class: 114
+      Script: {instanceID: 29014}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -288,7 +300,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1774}
+      Script: {instanceID: 1658}
     - Class: 114
       Script: {instanceID: 2240}
     - Class: 114
@@ -300,27 +312,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 3762}
     - Class: 114
-      Script: {instanceID: 4640}
+      Script: {instanceID: 4500}
     - Class: 114
-      Script: {instanceID: 4758}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 6610}
+      Script: {instanceID: 7048}
     - Class: 114
-      Script: {instanceID: 7200}
+      Script: {instanceID: 7204}
     - Class: 114
-      Script: {instanceID: 7400}
+      Script: {instanceID: 7404}
     - Class: 114
-      Script: {instanceID: 7424}
+      Script: {instanceID: 7428}
     - Class: 114
-      Script: {instanceID: 7438}
+      Script: {instanceID: 7620}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7652}
     - Class: 114
-      Script: {instanceID: 8080}
-    - Class: 114
-      Script: {instanceID: 9992}
+      Script: {instanceID: 8086}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,6 +342,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -383,35 +395,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4156}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 5212}
+      Script: {instanceID: 5214}
     - Class: 114
-      Script: {instanceID: 5334}
+      Script: {instanceID: 5336}
     - Class: 114
-      Script: {instanceID: 5584}
+      Script: {instanceID: 5586}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 6128}
     - Class: 114
-      Script: {instanceID: 6610}
+      Script: {instanceID: 6612}
     - Class: 114
-      Script: {instanceID: 6974}
+      Script: {instanceID: 6976}
     - Class: 114
-      Script: {instanceID: 7400}
+      Script: {instanceID: 7404}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7620}
     - Class: 114
-      Script: {instanceID: 8080}
+      Script: {instanceID: 8086}
     - Class: 114
-      Script: {instanceID: 8788}
+      Script: {instanceID: 8794}
     - Class: 114
-      Script: {instanceID: 8936}
+      Script: {instanceID: 8942}
     - Class: 114
-      Script: {instanceID: 9550}
+      Script: {instanceID: 9556}
     - Class: 114
-      Script: {instanceID: 31382}
+      Script: {instanceID: 28552}
     - Class: 114
-      Script: {instanceID: 31384}
+      Script: {instanceID: 28554}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -611,10 +623,10 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
-      Hash: 10273e8f64e1722ac876ec4b2c91de39
+      Hash: cb739bb6f350480efe122a3f9a5cca9d
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PlayerMovement_IOS
+    className: PlayerMovement_IOS_touch
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -959,6 +971,12 @@ ScriptsOnlyBuild:
     className: FBIPath
   - hash:
       serializedVersion: 2
+      Hash: 9b1c43bd45bf5d9104aeea8e912d64b5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SwitchDetectMode
+  - hash:
+      serializedVersion: 2
       Hash: c67fed51bde67baee143e72e4ea37178
     assemblyName: Unity.XR.OpenXR.Features.RuntimeDebugger
     namespaceName: UnityEngine.XR.OpenXR.Features.RuntimeDebugger
@@ -1211,10 +1229,10 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 25f960d19001bc2f5bd03bd1648b7526
+      Hash: e7d64428f6133de92af2db618bea6ed6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: RazerDetect
+    className: DetectAndPlay
   - hash:
       serializedVersion: 2
       Hash: 8787da68acbcc2f439d01ee75c474214
@@ -1463,6 +1481,12 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
+      Hash: 705ab4c0b3810591aa5978401c352f42
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SecSoundManager
+  - hash:
+      serializedVersion: 2
       Hash: f73532c9cb82aea7168d19ec253c2f5f
     assemblyName: Unity.XR.ARKit
     namespaceName: UnityEngine.XR.ARKit
@@ -1481,7 +1505,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 5ce64cc738179f8561715e77dfb7424e
+      Hash: 03f9517f29dca744c0c0e1b96f2fa1af
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HeadRaycaster
@@ -1505,7 +1529,7 @@ ScriptsOnlyBuild:
     className: ConformanceAutomationFeature
   - hash:
       serializedVersion: 2
-      Hash: 56b79db326e54fb58d7e5e55bc624e21
+      Hash: 1a027ec53418d1ad95d94cf41b7a54e0
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SoundManager
@@ -1539,6 +1563,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 7e1cc9791d58195ffc75e7ba7ed5dde0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GyroControl
   - hash:
       serializedVersion: 2
       Hash: 46624fea8a4af2d9e344d87df99d29c4
@@ -1607,6 +1637,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: 97260b53b533ac9abf9facc50286a110
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement_IOS_shake
+  - hash:
+      serializedVersion: 2
       Hash: febcfbf0a0d85e37808a3740e3c2c6fa
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1665,12 +1701,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRLoaderNoPreInit
-  - hash:
-      serializedVersion: 2
-      Hash: 309dad68f45dfaa543c46c77e6018be7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: RayDetectPlay
   - hash:
       serializedVersion: 2
       Hash: e63fe08659e7e4647a51098c666f8845

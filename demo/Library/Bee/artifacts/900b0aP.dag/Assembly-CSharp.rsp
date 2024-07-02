@@ -329,17 +329,20 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Example/Scripts/HeadphoneMotionExample.cs"
 "Assets/HeadphoneMotion/Plugins/iOS/HeadphoneMotion.cs"
+"Assets/Scripts/DetectAndPlay.cs"
 "Assets/Scripts/FBIPath.cs"
 "Assets/Scripts/FrankPath.cs"
+"Assets/Scripts/GyroControl.cs"
 "Assets/Scripts/LoadScene.cs"
 "Assets/Scripts/Museum/Artifact.cs"
 "Assets/Scripts/Museum/HeadRaycaster.cs"
 "Assets/Scripts/OverlappingPath.cs"
 "Assets/Scripts/PLayerMovement.cs"
-"Assets/Scripts/PlayerMovement_IOS.cs"
-"Assets/Scripts/RayDetectPlay.cs"
-"Assets/Scripts/RazerDetect.cs"
+"Assets/Scripts/PlayerMovement_IOS_shake.cs"
+"Assets/Scripts/PlayerMovement_IOS_touch.cs"
+"Assets/Scripts/SecSoundManager.cs"
 "Assets/Scripts/SoundManager.cs"
+"Assets/Scripts/SwitchDetectMode.cs"
 -langversion:9.0
 
 /deterministic

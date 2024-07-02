@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         userRot = transform.localEulerAngles;
 
         /* Lock the mouse into game once start */
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
     }
 
     /// <summary>

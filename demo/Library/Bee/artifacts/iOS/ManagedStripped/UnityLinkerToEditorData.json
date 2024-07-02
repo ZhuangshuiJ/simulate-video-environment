@@ -420,7 +420,8 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity"
+              "Assets/Scenes/MainMenu.unity",
+              "Assets/Scenes/MUSEUM.unity"
             ],
             "dependencyType": 0,
             "icon": null

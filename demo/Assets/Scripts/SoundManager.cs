@@ -9,8 +9,12 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private float movementThreshold = 0.1f; //to detect the cane is moving or not
     #endregion
 
+    #region Public Fields
+    public AudioSource audioSource;
+    #endregion
+
     #region private Fields
-    private AudioSource audioSource;
+
     private Vector3 lastPosition;
     private bool isPlaying;
     private bool hasPlayedHitSound; // to track if the hit sound has been played

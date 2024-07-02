@@ -8,7 +8,7 @@ public class HeadRaycaster : MonoBehaviour
     [SerializeField] Transform headTransform;
     [SerializeField] float maxDistance = 100f;
 
-    private Artifact lastArtifact = null;
+    public Artifact lastArtifact = null;
     private string lastArtifactTag = "";
 
     void Update()
@@ -25,7 +25,8 @@ public class HeadRaycaster : MonoBehaviour
             {
                 string currentTag = hit.collider.tag;
 
-                if (artifact != lastArtifact)
+
+                if (artifact != lastArtifact || currentTag != lastArtifactTag)
                 {
                     if (lastArtifact != null)
                     {

@@ -60,17 +60,20 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/RayDetectPlay.cs" />
+    <Compile Include="Assets/Scripts/GyroControl.cs" />
     <Compile Include="Assets/Scripts/FrankPath.cs" />
-    <Compile Include="Assets/Scripts/RazerDetect.cs" />
+    <Compile Include="Assets/Scripts/DetectAndPlay.cs" />
     <Compile Include="Assets/Scripts/PLayerMovement.cs" />
     <Compile Include="Assets/Scripts/FBIPath.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement_IOS_shake.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement_IOS_touch.cs" />
+    <Compile Include="Assets/Scripts/SwitchDetectMode.cs" />
     <Compile Include="Assets/HeadphoneMotion/Plugins/iOS/HeadphoneMotion.cs" />
     <Compile Include="Assets/Example/Scripts/HeadphoneMotionExample.cs" />
     <Compile Include="Assets/Scripts/OverlappingPath.cs" />
-    <Compile Include="Assets/Scripts/PlayerMovement_IOS.cs" />
     <Compile Include="Assets/Scripts/SoundManager.cs" />
     <Compile Include="Assets/Scripts/LoadScene.cs" />
+    <Compile Include="Assets/Scripts/SecSoundManager.cs" />
     <Compile Include="Assets/Scripts/Museum/Artifact.cs" />
     <Compile Include="Assets/Scripts/Museum/HeadRaycaster.cs" />
   </ItemGroup>
