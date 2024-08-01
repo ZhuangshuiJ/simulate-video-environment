@@ -165,6 +165,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: fad70700818d14e9893bc77c8cb65cc7, type: 3}
   - {fileID: 8300000, guid: 7570c2226afb647d6b4bb5b5b60390f2, type: 3}
   movementThreshold: 0.1
+  audioSource: {fileID: 0}
 --- !u!82 &4739281941002385730
 AudioSource:
   m_ObjectHideFlags: 0
@@ -317,7 +318,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.08715578, y: -0, z: -0, w: 0.9961947}
   m_LocalPosition: {x: -15.721619, y: 3.62, z: -9.52}
-  m_LocalScale: {x: 0.023327501, y: 0.01333, z: 5.12}
+  m_LocalScale: {x: 0.023327501, y: 0.01333, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3838523009270013874}

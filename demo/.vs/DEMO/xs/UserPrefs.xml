@@ -1,16 +1,28 @@
 ﻿<Properties StartupConfiguration="{C132594A-928C-86DF-54BB-28617E4DB357}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SwitchDetectMode.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerControl/GyroControl.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement_IOS_shake.cs" Line="105" Column="1" />
-      <File FileName="Assets/Scripts/PlayerMovement_IOS_touch.cs" />
-      <File FileName="Assets/Scripts/SwitchDetectMode.cs" Line="11" Column="5" />
+      <File FileName="Assets/Scripts/LoadScene.cs" Line="104" Column="11" />
+      <File FileName="../../InteractionForMRCANE-Ragheeb_Museum/Assets/Scripts/Scene/Menu/MainMenu.cs" />
       <File FileName="Assets/Scripts/DetectAndPlay.cs" />
-      <File FileName="Assets/Scripts/SecSoundManager.cs" />
-      <File FileName="Assets/Scripts/SoundManager.cs" Line="14" Column="15" />
-      <File FileName="Assets/Scripts/Museum/HeadRaycaster.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/HeadRaycaster.cs" />
+      <File FileName="Assets/Scripts/Museum/GenerateTargetInTotur.cs" />
+      <File FileName="Assets/Scripts/Museum/SwitchDetectMode.cs" Line="115" Column="18" />
       <File FileName="Assets/Scripts/Museum/Artifact.cs" />
-      <File FileName="Assets/Scripts/PLayerMovement.cs" />
-      <File FileName="Assets/Scripts/GyroControl.cs" />
+      <File FileName="Assets/UAP/Scripts/UI Components/AccessiblePluginToggle.cs" />
+      <File FileName="Assets/UAP/Scripts/UI Components/AccessibleToggle.cs" />
+      <File FileName="Assets/Scripts/FBIPath.cs" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/Tutor1.cs" Line="58" Column="12" />
+      <File FileName="Assets/Scripts/PlayerControl/GyroControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/Tutor2.cs" Line="18" Column="6" />
+      <File FileName="Assets/Scripts/PlayerControl/PLayerMovement.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerMovement_IOS_shake.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/SoundManager.cs" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/Tutor3.cs" Line="68" Column="1" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/Tutor4.cs" />
+      <File FileName="Assets/Scripts/PlayerControl/SecSoundManager.cs" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/SecDetectorInTutor4.cs" Line="63" Column="153" />
+      <File FileName="Assets/Scripts/PlayerControl/PlayerMovement_IOS_touch.cs" Line="229" Column="45" />
+      <File FileName="Assets/Scripts/TutorScenesScripts/TutorGates.cs" Line="58" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,8 +31,12 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Museum" expanded="True" />
-                <Node name="SwitchDetectMode.cs" selected="True" />
+                <Node name="PlayerControl" expanded="True">
+                  <Node name="GyroControl.cs" selected="True" />
+                </Node>
+                <Node name="TutorScenesScripts" expanded="True" />
               </Node>
+              <Node name="UAP" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -29,7 +45,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8c781f11-7934-40a4-9f1e-d218ccd4f7f4" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="49d0bc65-2ad0-4d55-8821-c0a664099de9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

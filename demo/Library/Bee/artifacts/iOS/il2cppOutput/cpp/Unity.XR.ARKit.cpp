@@ -10817,7 +10817,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* G_B7_0 = NULL;
 	{
 		uint8_t L_0;
-		L_0 = VirtualFuncInvoker0< uint8_t >::Invoke(23, __this);
+		L_0 = VirtualFuncInvoker0< uint8_t >::Invoke(22, __this);
 		V_0 = L_0;
 		uint8_t L_1 = V_0;
 		if ((((int32_t)L_1) == ((int32_t)1)))
@@ -10893,7 +10893,7 @@ IL_004e:
 IL_004f:
 	{
 		uint8_t L_13;
-		L_13 = VirtualFuncInvoker0< uint8_t >::Invoke(23, __this);
+		L_13 = VirtualFuncInvoker0< uint8_t >::Invoke(22, __this);
 		uint8_t L_14 = L_13;
 		RuntimeObject* L_15 = Box(XRCameraBackgroundRenderingMode_t40D1E12B0EAA2299E0D68A004FA39E60313238EC_il2cpp_TypeInfo_var, &L_14);
 		String_t* L_16;
@@ -15841,7 +15841,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NSString_t0191BA1064CD5FA606A88A32045C88E6C52
 		L_1 = XRReferenceImageLibrary_get_dataStore_mDB5DF12926E7B9F0B02C43C376C23CA99A371F64(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(1, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
+		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(0, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
 		if (!L_2)
 		{
 			goto IL_001f;
@@ -16901,7 +16901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NSBundle_t0BA04F85AFE6BB05F33F16826DE3C88358C
 		L_1 = XRReferenceImageLibrary_get_dataStore_mDB5DF12926E7B9F0B02C43C376C23CA99A371F64(L_0, NULL);
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(1, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
+		L_2 = InterfaceFuncInvoker2< bool, String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031** >::Invoke(0, IReadOnlyDictionary_2_t97FD4FEBA26DC444E19159FCE117EB26780A1816_il2cpp_TypeInfo_var, L_1, _stringLiteral6909D78C9B9AAB5A278269000AE309F2EDFCDFEB, (&V_0));
 		if (L_2)
 		{
 			goto IL_0020;

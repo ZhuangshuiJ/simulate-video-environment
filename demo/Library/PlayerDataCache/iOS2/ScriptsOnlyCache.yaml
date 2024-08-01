@@ -1,23 +1,48 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp:
+    - AccessibleButton
+    - AccessibleDropdown
+    - AccessibleLabel
+    - AccessibleSlider
+    - AccessibleToggle
+    - AccessibleUIGroupRoot
+    - UAP_AccessibilityManager
+    - UAP_VirtualKeyboard
+    - accessibilitysettings
+    - gameover
+    - gameplay
+    - gridpanel
+    - instructions
+    - mainmenu
+    - pausemenu
     Assembly-CSharp.dll:
+    - AccessibleButton
+    - AccessibleLabel
+    - AccessibleUIGroupRoot
     - Artifact
-    - FBIPath
-    - FrankPath
+    - GenerateTargetInTotur
     - GyroControl
     - HeadRaycaster
-    - LoadSecondScene
-    - OverlappingPath
+    - LoadScene
     - PlayerMovement
     - PlayerMovement_IOS_touch
+    - SecDetectorInTutor4
     - SecSoundManager
     - SoundManager
     - SwitchDetectMode
+    - Tutor1
+    - Tutor2
+    - Tutor3
+    - Tutor4
+    - TutorGates
+    - UAP_AccessibilityManager
+    - gameplay
+    - gridpanel
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    - UnityEngine.InputSystem.XR.TrackedPoseDriver
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -31,17 +56,10 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.XR.ARFoundation.dll:
-    - UnityEngine.XR.ARFoundation.ARCameraBackground
-    - UnityEngine.XR.ARFoundation.ARCameraManager
-    - UnityEngine.XR.ARFoundation.ARInputManager
-    - UnityEngine.XR.ARFoundation.ARSession
     Unity.XR.ARKit.Editor.dll:
     - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
-    Unity.XR.CoreUtils.dll:
-    - Unity.XR.CoreUtils.XROrigin
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -101,18 +119,40 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI:
+    - UnityEngine.UI.AspectRatioFitter
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.Dropdown
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
     - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Text
   serializedClasses:
-    Unity.InputSystem:
-    - UnityEngine.InputSystem.InputAction
-    - UnityEngine.InputSystem.InputActionProperty
-    - UnityEngine.InputSystem.InputBinding
+    Assembly-CSharp:
+    - UAP_BaseElement/UAPHighlightCallback
+    - UAP_VirtualKeyboard/UAPKeyboardLayout
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
@@ -139,7 +179,9 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
     - UnityEngine.Pose
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -149,208 +191,57 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.AnimationTriggers
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.Dropdown/DropdownEvent
+    - UnityEngine.UI.Dropdown/OptionData
+    - UnityEngine.UI.Dropdown/OptionDataList
+    - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Slider/SliderEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
-    fullTypeName: LoadSecondScene
+    fullTypeName: LoadScene
     methodName: LoadTheThirdScene
   - assembly: Assembly-CSharp
-    fullTypeName: LoadSecondScene
+    fullTypeName: LoadScene
     methodName: LoadTheSecondScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: QuitApp
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: LoadTheSceneFour
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: LoadTheSceneSix
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: LoadTheSceneFive
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: LoadTheSceneSeven
+  - assembly: Assembly-CSharp
+    fullTypeName: LoadScene
+    methodName: LoadTheFirstScene
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchDetectMode
+    methodName: SwitchButtonOnclick
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchDetectMode
+    methodName: SwitchButtonOnclick
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchDetectMode
+    methodName: SwitchButtonOnclick
+  - assembly: Assembly-CSharp
+    fullTypeName: SwitchDetectMode
+    methodName: SwitchButtonOnclick
   - assembly: Assembly-CSharp
     fullTypeName: SwitchDetectMode
     methodName: SwitchButtonOnclick
   sceneClasses:
-    Assets/Scenes/DEMO.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1774}
-    - Class: 114
-      Script: {instanceID: 2240}
-    - Class: 114
-      Script: {instanceID: 2798}
-    - Class: 114
-      Script: {instanceID: 3086}
-    - Class: 114
-      Script: {instanceID: 3362}
-    - Class: 114
-      Script: {instanceID: 4006}
-    - Class: 114
-      Script: {instanceID: 4156}
-    - Class: 114
-      Script: {instanceID: 4484}
-    - Class: 114
-      Script: {instanceID: 4500}
-    - Class: 114
-      Script: {instanceID: 4642}
-    - Class: 114
-      Script: {instanceID: 4760}
-    - Class: 114
-      Script: {instanceID: 5492}
-    - Class: 114
-      Script: {instanceID: 6592}
-    - Class: 114
-      Script: {instanceID: 6612}
-    - Class: 114
-      Script: {instanceID: 7048}
-    - Class: 114
-      Script: {instanceID: 7204}
-    - Class: 114
-      Script: {instanceID: 7404}
-    - Class: 114
-      Script: {instanceID: 7428}
-    - Class: 114
-      Script: {instanceID: 7442}
-    - Class: 114
-      Script: {instanceID: 7620}
-    - Class: 114
-      Script: {instanceID: 7652}
-    - Class: 114
-      Script: {instanceID: 8086}
-    - Class: 114
-      Script: {instanceID: 9998}
-    - Class: 114
-      Script: {instanceID: 29014}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/MUSEUM.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 54
-      Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1658}
-    - Class: 114
-      Script: {instanceID: 2240}
-    - Class: 114
-      Script: {instanceID: 2798}
-    - Class: 114
-      Script: {instanceID: 3086}
-    - Class: 114
-      Script: {instanceID: 3362}
-    - Class: 114
-      Script: {instanceID: 3560}
-    - Class: 114
-      Script: {instanceID: 3762}
-    - Class: 114
-      Script: {instanceID: 4500}
-    - Class: 114
-      Script: {instanceID: 6612}
-    - Class: 114
-      Script: {instanceID: 7048}
-    - Class: 114
-      Script: {instanceID: 7204}
-    - Class: 114
-      Script: {instanceID: 7404}
-    - Class: 114
-      Script: {instanceID: 7428}
-    - Class: 114
-      Script: {instanceID: 7620}
-    - Class: 114
-      Script: {instanceID: 7652}
-    - Class: 114
-      Script: {instanceID: 8086}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
-      Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/MainMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -374,7 +265,164 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 1826}
+    - Class: 114
+      Script: {instanceID: 1938}
+    - Class: 114
+      Script: {instanceID: 2486}
+    - Class: 114
+      Script: {instanceID: 2740}
+    - Class: 114
+      Script: {instanceID: 2912}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3676}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 3908}
+    - Class: 114
+      Script: {instanceID: 4052}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4680}
+    - Class: 114
+      Script: {instanceID: 4778}
+    - Class: 114
+      Script: {instanceID: 4924}
+    - Class: 114
+      Script: {instanceID: 5270}
+    - Class: 114
+      Script: {instanceID: 5374}
+    - Class: 114
+      Script: {instanceID: 5396}
+    - Class: 114
+      Script: {instanceID: 5646}
+    - Class: 114
+      Script: {instanceID: 5650}
+    - Class: 114
+      Script: {instanceID: 5852}
+    - Class: 114
+      Script: {instanceID: 6192}
+    - Class: 114
+      Script: {instanceID: 6194}
+    - Class: 114
+      Script: {instanceID: 6336}
+    - Class: 114
+      Script: {instanceID: 6492}
+    - Class: 114
+      Script: {instanceID: 6584}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7050}
+    - Class: 114
+      Script: {instanceID: 7052}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7618}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 8072}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 114
+      Script: {instanceID: 8688}
+    - Class: 114
+      Script: {instanceID: 8696}
+    - Class: 114
+      Script: {instanceID: 8892}
+    - Class: 114
+      Script: {instanceID: 9042}
+    - Class: 114
+      Script: {instanceID: 9342}
+    - Class: 114
+      Script: {instanceID: 9666}
+    - Class: 114
+      Script: {instanceID: 9716}
+    - Class: 114
+      Script: {instanceID: 9788}
+    - Class: 114
+      Script: {instanceID: 9934}
+    - Class: 114
+      Script: {instanceID: 10330}
+    - Class: 114
+      Script: {instanceID: 10892}
+    - Class: 114
+      Script: {instanceID: 36438}
+    - Class: 114
+      Script: {instanceID: 38944}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Museum.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -385,48 +433,487 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 2478}
+      Script: {instanceID: 2244}
     - Class: 114
-      Script: {instanceID: 3086}
+      Script: {instanceID: 2818}
     - Class: 114
-      Script: {instanceID: 3362}
+      Script: {instanceID: 3116}
     - Class: 114
-      Script: {instanceID: 3762}
+      Script: {instanceID: 3394}
     - Class: 114
-      Script: {instanceID: 4156}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 4632}
+      Script: {instanceID: 3798}
     - Class: 114
-      Script: {instanceID: 5214}
+      Script: {instanceID: 4200}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 4548}
     - Class: 114
-      Script: {instanceID: 5586}
+      Script: {instanceID: 6684}
     - Class: 114
-      Script: {instanceID: 6128}
+      Script: {instanceID: 7122}
     - Class: 114
-      Script: {instanceID: 6612}
+      Script: {instanceID: 7280}
     - Class: 114
-      Script: {instanceID: 6976}
+      Script: {instanceID: 7482}
     - Class: 114
-      Script: {instanceID: 7404}
+      Script: {instanceID: 7508}
     - Class: 114
-      Script: {instanceID: 7620}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 8086}
+      Script: {instanceID: 7734}
     - Class: 114
-      Script: {instanceID: 8794}
-    - Class: 114
-      Script: {instanceID: 8942}
-    - Class: 114
-      Script: {instanceID: 9556}
-    - Class: 114
-      Script: {instanceID: 28552}
-    - Class: 114
-      Script: {instanceID: 28554}
+      Script: {instanceID: 8172}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ToturMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 1826}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 5852}
+    - Class: 114
+      Script: {instanceID: 6336}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7052}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 114
+      Script: {instanceID: 8696}
+    - Class: 114
+      Script: {instanceID: 10330}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ToturTasks/Tutor1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 2244}
+    - Class: 114
+      Script: {instanceID: 2818}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4548}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7122}
+    - Class: 114
+      Script: {instanceID: 7280}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7490}
+    - Class: 114
+      Script: {instanceID: 7508}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 7734}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 114
+      Script: {instanceID: 45296}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ToturTasks/Tutor2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 2244}
+    - Class: 114
+      Script: {instanceID: 2818}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4548}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7122}
+    - Class: 114
+      Script: {instanceID: 7280}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7508}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 7734}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 114
+      Script: {instanceID: 10024}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ToturTasks/Tutor3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 2204}
+    - Class: 114
+      Script: {instanceID: 2244}
+    - Class: 114
+      Script: {instanceID: 2818}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4548}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7122}
+    - Class: 114
+      Script: {instanceID: 7280}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7508}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 7734}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 114
+      Script: {instanceID: 9146}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/ToturTasks/Tutor4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1658}
+    - Class: 114
+      Script: {instanceID: 2204}
+    - Class: 114
+      Script: {instanceID: 2244}
+    - Class: 114
+      Script: {instanceID: 2528}
+    - Class: 114
+      Script: {instanceID: 2818}
+    - Class: 114
+      Script: {instanceID: 3116}
+    - Class: 114
+      Script: {instanceID: 3394}
+    - Class: 114
+      Script: {instanceID: 3592}
+    - Class: 114
+      Script: {instanceID: 3798}
+    - Class: 114
+      Script: {instanceID: 4200}
+    - Class: 114
+      Script: {instanceID: 4548}
+    - Class: 114
+      Script: {instanceID: 4828}
+    - Class: 114
+      Script: {instanceID: 6684}
+    - Class: 114
+      Script: {instanceID: 7122}
+    - Class: 114
+      Script: {instanceID: 7280}
+    - Class: 114
+      Script: {instanceID: 7482}
+    - Class: 114
+      Script: {instanceID: 7508}
+    - Class: 114
+      Script: {instanceID: 7702}
+    - Class: 114
+      Script: {instanceID: 7734}
+    - Class: 114
+      Script: {instanceID: 8172}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -551,6 +1038,12 @@ ScriptsOnlyBuild:
     className: ARPointCloudMeshVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 98dfb0813d64a8f06bc45be4cb288b48
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GenerateTargetInTotur
+  - hash:
+      serializedVersion: 2
       Hash: 7bf4b5beb181eb73796c29779b8d6a52
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -561,6 +1054,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR
     className: OpenXRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 8f5b8845098e01fbf8e36d0b6aced908
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DemoHelper
   - hash:
       serializedVersion: 2
       Hash: b12640dfdb5966813e9dd838893e6c4a
@@ -593,6 +1092,18 @@ ScriptsOnlyBuild:
     className: UnityOnPointerUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 3ea54b7fba6b02c16e19a91bc5b9a93b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SecDetectorInTutor4
+  - hash:
+      serializedVersion: 2
+      Hash: 1c81fe894a5fa4d9ca8bede74ed039ff
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_SelectionGroup
+  - hash:
+      serializedVersion: 2
       Hash: b40f8ffcaa6b71545b8d6ff04b849814
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.Editor
@@ -623,10 +1134,28 @@ ScriptsOnlyBuild:
     className: ARParticipantManager
   - hash:
       serializedVersion: 2
+      Hash: 2ad53254b8133b49294d0d1acefbdaf8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameplay
+  - hash:
+      serializedVersion: 2
       Hash: cb739bb6f350480efe122a3f9a5cca9d
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerMovement_IOS_touch
+  - hash:
+      serializedVersion: 2
+      Hash: 1acd6323067b9cb73e684fc0379b1cfa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlatformTextSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 114af9120ac631d847d58a833f0962a3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: instructions
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -639,6 +1168,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARFace
+  - hash:
+      serializedVersion: 2
+      Hash: 3cc8d245f4782e97414806674448ca92
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleLabel_3D
   - hash:
       serializedVersion: 2
       Hash: e987953190eb4c12cf19df790566dc2c
@@ -693,6 +1228,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d97399404e22cd02b0efe4b695c6183
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WebSpeechAPI_TTS
   - hash:
       serializedVersion: 2
       Hash: 5a4aa2850fe11587f47e34c270c7fd22
@@ -773,6 +1314,12 @@ ScriptsOnlyBuild:
     className: AROcclusionManager
   - hash:
       serializedVersion: 2
+      Hash: cfe39ea5c152d47b8cfd1f7f690a1960
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: mainmenu
+  - hash:
+      serializedVersion: 2
       Hash: b838cbada0b03f1cfbaebc8e124f4f39
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem.OnScreen
@@ -819,6 +1366,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 57fe6f18108233d3af0f7cdcf618c1ef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: accessibilitysettings
   - hash:
       serializedVersion: 2
       Hash: b6307dfc54cca9ba44f47185c578b0ce
@@ -887,10 +1440,16 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 37ff914b8ca85d076dd7c254d6dcc722
+      Hash: 7085a05be88170b7ede467069d5fea9c
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: LoadSecondScene
+    className: UAP_ScrollControl
+  - hash:
+      serializedVersion: 2
+      Hash: a6048830a66d73f8ce6115519ab46509
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadScene
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
@@ -971,7 +1530,7 @@ ScriptsOnlyBuild:
     className: FBIPath
   - hash:
       serializedVersion: 2
-      Hash: 9b1c43bd45bf5d9104aeea8e912d64b5
+      Hash: afdb74bb443f329406028548d760098c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SwitchDetectMode
@@ -1037,6 +1596,18 @@ ScriptsOnlyBuild:
     className: ARKitLoader
   - hash:
       serializedVersion: 2
+      Hash: 5e9021598de0c6d40169caa5722d3abe
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleSlider
+  - hash:
+      serializedVersion: 2
+      Hash: a561708c7cf1408a5c98f101a8598e57
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: iOSGestures
+  - hash:
+      serializedVersion: 2
       Hash: 552dca338f20933ce362ebbe559a6aa6
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1047,6 +1618,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils
     className: XROrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 6a2224d507afa4afa4e77a325fe0bb68
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tutor4
   - hash:
       serializedVersion: 2
       Hash: 95426d463074947dcbffc797c44e779c
@@ -1169,6 +1746,12 @@ ScriptsOnlyBuild:
     className: DictionaryAsset
   - hash:
       serializedVersion: 2
+      Hash: 05c4f1c22e562d3461dcc8c5d8471be8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleLabel
+  - hash:
+      serializedVersion: 2
       Hash: 97abff11892aaeb9b950604d8b17e5f2
     assemblyName: Unity.XR.Simulation
     namespaceName: UnityEngine.XR.Simulation
@@ -1223,6 +1806,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
+      Hash: 6157a6779a46fe21ba993f52fe50d6e7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleDropdown
+  - hash:
+      serializedVersion: 2
       Hash: 96e7bcfd2d072992dab64ac44058b930
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1251,6 +1840,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem
     namespaceName: UnityEngine.InputSystem
     className: InputSystemObject
+  - hash:
+      serializedVersion: 2
+      Hash: 0b262ec7f134519817fdd9162b2f746c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleButton
   - hash:
       serializedVersion: 2
       Hash: e34a2bf62ae5e17a9c6062787cfffbdb
@@ -1319,6 +1914,12 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
+      Hash: 9081be35af2ed02b21bcea2feaa8721a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessiblePluginToggle
+  - hash:
+      serializedVersion: 2
       Hash: f2098fcd8ee983a05ec192f63904298f
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1335,6 +1936,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.XR.LegacyInputHelpers
     namespaceName: UnityEditor.XR.LegacyInputHelpers
     className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 21071ff2f0ffa9fca80ab19ac90fd160
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleUIGroupRoot
   - hash:
       serializedVersion: 2
       Hash: 6d94138b60a9299798dda96c1ee6725f
@@ -1505,7 +2112,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: 03f9517f29dca744c0c0e1b96f2fa1af
+      Hash: 6cb457b85fe24dadef0f616488ec5225
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: HeadRaycaster
@@ -1521,6 +2128,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 99c217f5d7a9900d9ba8702fb60fdf81
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tutor1
   - hash:
       serializedVersion: 2
       Hash: 4f81b12e1a60b251fa0500c327ae9162
@@ -1565,7 +2178,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 7e1cc9791d58195ffc75e7ba7ed5dde0
+      Hash: 0d49be9eb3add0db2035f0e3ee7314d6
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GyroControl
@@ -1605,6 +2218,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils.Datums
     className: IntDatum
+  - hash:
+      serializedVersion: 2
+      Hash: e3486ea3cbf9b9c0df7292bdd3a3a907
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: pausemenu
+  - hash:
+      serializedVersion: 2
+      Hash: 19886f8efecf1da1db57b3360f2c0614
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Google_TTS
   - hash:
       serializedVersion: 2
       Hash: 4f353524ce6564e40764f1ea080b2d85
@@ -1647,6 +2272,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e9f84d6a70738a85a1667c107871464b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_GameObjectEnabler
   - hash:
       serializedVersion: 2
       Hash: 672716ae97f6ddb615fa5ac3ec9da349
@@ -1725,6 +2356,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 64e4a1744345c7ca675e3762e2860f88
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AndroidTTS
+  - hash:
+      serializedVersion: 2
+      Hash: c283dfe5ffe8f0e07e978f3fb8afc4a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleToggle
   - hash:
       serializedVersion: 2
       Hash: 20a120e55ad3ab65556328d5fd8309dd
@@ -1853,6 +2496,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 7edf66b28020d8523038522610b31edd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tutor3
+  - hash:
+      serializedVersion: 2
       Hash: ee34255e3e86289bde9bad5e07b84cbc
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1913,6 +2562,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 4b28a8180ef7436d949390a69142632b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_AudioQueue
+  - hash:
+      serializedVersion: 2
       Hash: e0a91173084bd8b8cce7e6e00e343381
     assemblyName: Unity.XR.OpenXR
     namespaceName: UnityEngine.XR.OpenXR.Features.Interactions
@@ -1943,6 +2598,18 @@ ScriptsOnlyBuild:
     className: ARSessionOrigin
   - hash:
       serializedVersion: 2
+      Hash: f3871b08ef7cdf742d20e5222a51d35e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameover
+  - hash:
+      serializedVersion: 2
+      Hash: 4eeac8664f5cae0293c14c8876b6aeac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleButton_3D
+  - hash:
+      serializedVersion: 2
       Hash: d0392b7f3f52d5af537ade186b4f51f1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1959,6 +2626,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 2bf20a593b2d3bf205a3eaa93519a60b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MacOSTTS
+  - hash:
+      serializedVersion: 2
+      Hash: f6bcaeca15c8e64e1b56d2e8c1a2ee73
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_VirtualKeyboard
+  - hash:
+      serializedVersion: 2
+      Hash: b2db2ca9689a0321ac16df392cc57626
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Tutor2
   - hash:
       serializedVersion: 2
       Hash: 83447eb14ba5f9222c0f703aabb89c38
@@ -2009,6 +2694,12 @@ ScriptsOnlyBuild:
     className: EyeGazeInteraction
   - hash:
       serializedVersion: 2
+      Hash: a102a780b858483f29989cf3b8db7867
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_CustomTTS
+  - hash:
+      serializedVersion: 2
       Hash: 82a7c77ba1da2d34c81569e79eeeed9d
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
@@ -2021,16 +2712,34 @@ ScriptsOnlyBuild:
     className: UnityOnMouseUpMessageListener
   - hash:
       serializedVersion: 2
+      Hash: f95882df9eb47a433dfcb03a333ce606
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_AccessibilityManager
+  - hash:
+      serializedVersion: 2
       Hash: 1553f209ae0b2d5d3a35685fca55f9c3
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 54b0823e090a0901a713efa5b11cd2c1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AccessibleTextEdit
+  - hash:
+      serializedVersion: 2
       Hash: 4eed6cbb7e35dc1c168f67943a4ceba3
     assemblyName: Unity.XR.ARFoundation
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARFaceManager
+  - hash:
+      serializedVersion: 2
+      Hash: e3b2bb34af3fbe3b6e9ea8b9cba09f5c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UAP_BackCloseEventListener
   - hash:
       serializedVersion: 2
       Hash: 8aa53a78f29ddf9b15dee823fcbd2c6f
@@ -2055,6 +2764,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.CoreUtils
     namespaceName: Unity.XR.CoreUtils.Datums
     className: FloatDatum
+  - hash:
+      serializedVersion: 2
+      Hash: 28c0e1e6cb18f2257dc7bd9f4486d0ec
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: uGUI3DExampleGameLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa7f757f392eca127a15d5982593b12
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WindowsTTS
   - hash:
       serializedVersion: 2
       Hash: 060552f194082617403d8e97c7540651
@@ -2121,9 +2842,25 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 02fc0f9386b25e2acfcb0341c3f1cf12
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gridpanel
+  - hash:
+      serializedVersion: 2
+      Hash: 28dde4daddcaa7c1b89e0607736d3057
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TutorGates
   platform: 9
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/DEMO.unity
-  - Assets/Scenes/MUSEUM.unity
+  - Assets/Scenes/ToturMenu.unity
+  - Assets/Scenes/Museum.unity
+  - Assets/Scenes/ToturTasks/Tutor1.unity
+  - Assets/Scenes/ToturTasks/Tutor2.unity
+  - Assets/Scenes/ToturTasks/Tutor3.unity
+  - Assets/Scenes/ToturTasks/Tutor4.unity
   playerPath: /Users/zhuangshuijiang/Documents/test

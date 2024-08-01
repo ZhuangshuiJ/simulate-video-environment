@@ -9,14 +9,29 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d261782667d9f5249a683e953e57c526
   - enabled: 1
-    path: Assets/Scenes/DEMO.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/ToturMenu.unity
+    guid: 8d3fab62f575549ecb7d46772abb2cc5
   - enabled: 1
-    path: Assets/Scenes/MUSEUM.unity
+    path: Assets/Scenes/Museum.unity
     guid: eb151e6b5c53044fd95afce692cd71bf
+  - enabled: 0
+    path: Assets/Scenes/MovieClip.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Example/Scenes/HeadphoneMotionExample.unity
     guid: 47f2d13c6e6654d47a2a038695496755
+  - enabled: 1
+    path: Assets/Scenes/ToturTasks/Tutor1.unity
+    guid: 20fbb2cfb5fa842ae94b39c9ea1c19db
+  - enabled: 1
+    path: Assets/Scenes/ToturTasks/Tutor2.unity
+    guid: d5a32a140aff84019909947f576a4a4e
+  - enabled: 1
+    path: Assets/Scenes/ToturTasks/Tutor3.unity
+    guid: 126236d2cb10046e79b81710788d4711
+  - enabled: 1
+    path: Assets/Scenes/ToturTasks/Tutor4.unity
+    guid: 88dd783841fbc458a944343a9a390419
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a991c119331374112b442f8c0853f24d, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 84ef8b20221cf4ca8bee23c26c216d99, type: 2}
