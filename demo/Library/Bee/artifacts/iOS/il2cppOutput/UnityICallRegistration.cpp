@@ -1548,6 +1548,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Gyroscope
 
+	//Start Registrations for type : UnityEngine.Handheld
+
+		//System.Void UnityEngine.Handheld::Vibrate()
+		void Register_UnityEngine_Handheld_Vibrate();
+		Register_UnityEngine_Handheld_Vibrate();
+
+	//End Registrations for type : UnityEngine.Handheld
+
 	//Start Registrations for type : UnityEngine.Hash128
 
 		//System.String UnityEngine.Hash128::Hash128ToStringImpl_Injected(UnityEngine.Hash128&)
@@ -2533,6 +2541,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
 		void Register_UnityEngine_Random_Range();
 		Register_UnityEngine_Random_Range();
+
+		//System.Single UnityEngine.Random::get_value()
+		void Register_UnityEngine_Random_get_value();
+		Register_UnityEngine_Random_get_value();
 
 	//End Registrations for type : UnityEngine.Random
 

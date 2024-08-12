@@ -158,6 +158,7 @@ extern void Artifact__ctor_mD16C3FF4A18834F2BA5679ECDEF9C222E02047E2 (void);
 extern void GenerateTargetInTotur_Start_m610957F64BA62E1A45A2EFDE89B41610A376C5F3 (void);
 extern void GenerateTargetInTotur_Update_mA51F6D414939EBC63A1EBE06C145E2D4FF30A4E7 (void);
 extern void GenerateTargetInTotur_GenerateTarget_m8FB5741BC884C5AA2A15ACC7D9FE11D155B4BA78 (void);
+extern void GenerateTargetInTotur_GetBoundaryRandomValue_m3512496AD7D7215A8FF2B321CEA5A1211CDA1AD8 (void);
 extern void GenerateTargetInTotur__ctor_mF72DC08077880D4A0BEFB9839B4071FFCEA911E1 (void);
 extern void SwitchDetectMode_Start_m09599B5561295E12B477EF86D1F127199DA60E62 (void);
 extern void SwitchDetectMode_Update_m7836080E7A81DA030B1FFB0B8D8DFCA38BC9D1C8 (void);
@@ -175,6 +176,9 @@ extern void U3CStep1U3Ed__5_MoveNext_m8846C988439C0DC2B072C0F67141EBB086DB2E0E (
 extern void U3CStep1U3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCC2DBA6BBC70F12FE14986D196264A6A19B5F670 (void);
 extern void U3CStep1U3Ed__5_System_Collections_IEnumerator_Reset_m9ED11E2409B16771BD2C26A5AA882D095192AD91 (void);
 extern void U3CStep1U3Ed__5_System_Collections_IEnumerator_get_Current_m6082E096BD578BB8D8875543583B75A3ACC257F6 (void);
+extern void BubbleCollision_OnTriggerEnter_m6CAB5599A1D1795B95920D416CCE2798EED08999 (void);
+extern void BubbleCollision__ctor_m7874E1EBF9FE98A42D17A61F24CB8BAFEF4A1ABC (void);
+extern void BubbleCollision__cctor_mB31494FAEF6C52250E6EB9E5C6A3815CE918FF1E (void);
 extern void GyroControl_Start_m088DE2F0E91A252CECAB9B19E61182B05F44EF41 (void);
 extern void GyroControl_initialCaneRotation_mFFDDF394F63D6CA36EBA613F9B377EED09198652 (void);
 extern void GyroControl_Update_m54801F31910A222DAE05A67828E83D79CD1B7E4D (void);
@@ -936,7 +940,7 @@ extern void HeadphoneConnectionAction__ctor_mC0459EE21286E2EB0B643D1DF3D99C6C085
 extern void HeadphoneConnectionAction_Invoke_m91AF77A677F3FF0F26F4DB76B9B9591947095C0F (void);
 extern void HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E (void);
 extern void HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C (void);
-static Il2CppMethodPointer s_methodPointers[923] = 
+static Il2CppMethodPointer s_methodPointers[927] = 
 {
 	DetectAndPlay_Start_mAE0CD1F88E27D85E2744EEF9E646F395F822200F,
 	DetectAndPlay_Setup_m8575A64F39E4E456879042B80DE081C0B7D53DD3,
@@ -1082,6 +1086,7 @@ static Il2CppMethodPointer s_methodPointers[923] =
 	GenerateTargetInTotur_Start_m610957F64BA62E1A45A2EFDE89B41610A376C5F3,
 	GenerateTargetInTotur_Update_mA51F6D414939EBC63A1EBE06C145E2D4FF30A4E7,
 	GenerateTargetInTotur_GenerateTarget_m8FB5741BC884C5AA2A15ACC7D9FE11D155B4BA78,
+	GenerateTargetInTotur_GetBoundaryRandomValue_m3512496AD7D7215A8FF2B321CEA5A1211CDA1AD8,
 	GenerateTargetInTotur__ctor_mF72DC08077880D4A0BEFB9839B4071FFCEA911E1,
 	SwitchDetectMode_Start_m09599B5561295E12B477EF86D1F127199DA60E62,
 	SwitchDetectMode_Update_m7836080E7A81DA030B1FFB0B8D8DFCA38BC9D1C8,
@@ -1099,6 +1104,9 @@ static Il2CppMethodPointer s_methodPointers[923] =
 	U3CStep1U3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mCC2DBA6BBC70F12FE14986D196264A6A19B5F670,
 	U3CStep1U3Ed__5_System_Collections_IEnumerator_Reset_m9ED11E2409B16771BD2C26A5AA882D095192AD91,
 	U3CStep1U3Ed__5_System_Collections_IEnumerator_get_Current_m6082E096BD578BB8D8875543583B75A3ACC257F6,
+	BubbleCollision_OnTriggerEnter_m6CAB5599A1D1795B95920D416CCE2798EED08999,
+	BubbleCollision__ctor_m7874E1EBF9FE98A42D17A61F24CB8BAFEF4A1ABC,
+	BubbleCollision__cctor_mB31494FAEF6C52250E6EB9E5C6A3815CE918FF1E,
 	GyroControl_Start_m088DE2F0E91A252CECAB9B19E61182B05F44EF41,
 	GyroControl_initialCaneRotation_mFFDDF394F63D6CA36EBA613F9B377EED09198652,
 	GyroControl_Update_m54801F31910A222DAE05A67828E83D79CD1B7E4D,
@@ -1862,7 +1870,7 @@ static Il2CppMethodPointer s_methodPointers[923] =
 	HeadphoneConnectionAction_BeginInvoke_mA9AE2109DA49BA4FB644B3C718CC98609D92789E,
 	HeadphoneConnectionAction_EndInvoke_mEF0B3E28C493E6CA0273CD02DA28C6A9CE212E6C,
 };
-static const int32_t s_InvokerIndices[923] = 
+static const int32_t s_InvokerIndices[927] = 
 {
 	6706,
 	6706,
@@ -2008,6 +2016,7 @@ static const int32_t s_InvokerIndices[923] =
 	6706,
 	6706,
 	6706,
+	6637,
 	6706,
 	6706,
 	6706,
@@ -2025,6 +2034,9 @@ static const int32_t s_InvokerIndices[923] =
 	6590,
 	6706,
 	6590,
+	5239,
+	6706,
+	10144,
 	6706,
 	6706,
 	6706,
@@ -2790,12 +2802,12 @@ static const int32_t s_InvokerIndices[923] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[2] = 
 {
-	{ 0x06000391, 6,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
-	{ 0x06000392, 7,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
+	{ 0x06000395, 6,  (void**)&HeadphoneMotion_HeadphoneConnectionChanged_m4B555471DBBF3F3F8AC295B370CFEC4CAED6C367_RuntimeMethod_var, 0 },
+	{ 0x06000396, 7,  (void**)&HeadphoneMotion_RotationUpdated_m556F9C177583DE4E0386119B10447B43CD252849_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x06000363, { 0, 1 } },
+	{ 0x06000367, { 0, 1 } },
 };
 extern const uint32_t g_rgctx_T_t7738D42A09968ABCE0BD1C2D5791DFA0E4353A57;
 static const Il2CppRGCTXDefinition s_rgctxValues[1] = 
@@ -2806,7 +2818,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	923,
+	927,
 	s_methodPointers,
 	0,
 	NULL,

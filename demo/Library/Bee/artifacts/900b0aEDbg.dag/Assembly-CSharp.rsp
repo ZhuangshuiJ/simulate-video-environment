@@ -401,6 +401,7 @@
 "Assets/Scripts/Museum/GenerateTargetInTotur.cs"
 "Assets/Scripts/Museum/SwitchDetectMode.cs"
 "Assets/Scripts/OverlappingPath.cs"
+"Assets/Scripts/PlayerControl/BubbleCollision.cs"
 "Assets/Scripts/PlayerControl/GyroControl.cs"
 "Assets/Scripts/PlayerControl/HeadRaycaster.cs"
 "Assets/Scripts/PlayerControl/PLayerMovement.cs"

@@ -651,6 +651,10 @@ PrefabInstance:
       propertyPath: body
       value: 
       objectReference: {fileID: 1189785196}
+    - target: {fileID: 2147309334488491155, guid: ff36e07d563244a74a1776251ccfdf62, type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 2023720626}
     - target: {fileID: 5214278504721791940, guid: ff36e07d563244a74a1776251ccfdf62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.011
@@ -2357,6 +2361,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &2023720626 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6050230634132894706, guid: ffbeac84355eb944494faf065b6296d9, type: 3}
+  m_PrefabInstance: {fileID: 3317636278897387641}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2044080420
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,7 +2475,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5218315006227754134, guid: ffbeac84355eb944494faf065b6296d9, type: 3}
   m_PrefabInstance: {fileID: 3317636278897387641}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2023720626}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2b07a0432dc742e090c9a7e2f9d3a42, type: 3}

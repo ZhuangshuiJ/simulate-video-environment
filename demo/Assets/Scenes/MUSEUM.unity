@@ -1609,6 +1609,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioIndex: 7
+--- !u!1 &616758812 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6050230634132894706, guid: ffbeac84355eb944494faf065b6296d9, type: 3}
+  m_PrefabInstance: {fileID: 3317636278897387641}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &621340026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1621,6 +1626,10 @@ PrefabInstance:
       propertyPath: body
       value: 
       objectReference: {fileID: 1189785196}
+    - target: {fileID: 2147309334488491155, guid: ff36e07d563244a74a1776251ccfdf62, type: 3}
+      propertyPath: head
+      value: 
+      objectReference: {fileID: 616758812}
     - target: {fileID: 5214278504721791940, guid: ff36e07d563244a74a1776251ccfdf62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.011
@@ -1665,7 +1674,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GripPoint
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 817268301837802896, guid: ff36e07d563244a74a1776251ccfdf62, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

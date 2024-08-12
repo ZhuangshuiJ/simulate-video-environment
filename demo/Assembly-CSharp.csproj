@@ -79,6 +79,7 @@
     <Compile Include="Assets/UAP/Examples/Match 3 Game Example/Scripts/gameplay.cs" />
     <Compile Include="Assets/UAP/Scripts/UI Components/AccessibleLabel_3D.cs" />
     <Compile Include="Assets/UAP/Examples/Match 3 Game Example/Scripts/gridpanel.cs" />
+    <Compile Include="Assets/Scripts/PlayerControl/BubbleCollision.cs" />
     <Compile Include="Assets/Scripts/PlayerControl/HeadRaycaster.cs" />
     <Compile Include="Assets/Scripts/FBIPath.cs" />
     <Compile Include="Assets/UAP/Scripts/UI Components/AccessibleSlider.cs" />
